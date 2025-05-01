@@ -13,17 +13,6 @@ class App extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
 
-      theme: ThemeData(
-        // colorScheme: ColorScheme.dark(),
-        // scaffoldBackgroundColor: const Color.fromARGB(192, 107, 44, 243),
-
-        // textTheme: const TextTheme(
-        //   bodyLarge: TextStyle(color: Colors.red),
-        //   bodyMedium: TextStyle(color: Colors.red),
-        //   titleLarge: TextStyle(color: Colors.red),
-        //   // Add more styles if needed
-        // ),
-      ),
       initialRoute: '/',
       routes: {
         '/': (context) => HomeScreen(),
