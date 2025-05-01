@@ -120,9 +120,7 @@ class _EditProductScreenState extends State<EditProductScreen> {
               Row(
                 children: [
                   SizedBox(
-                    width:
-                        MediaQuery.of(context).size.width *
-                        0.6, // 60% of screen width
+                    width: MediaQuery.of(context).size.width * 0.6,
                     child: _buildTextField(_idController, 'Product Id'),
                   ),
 
